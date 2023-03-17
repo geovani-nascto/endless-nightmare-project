@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*Deixar a fonte ainda mais "suavizada"*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    text-align: center;
+    padding-top: 160px;
+    height: 100vh;
+    background: url(../img/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+h3 span{
+    color: #FFC700;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFC700;
+}
+
+p{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 78px;
+    color: #fff;
+    opacity: 0.6;
+}
+
+a{
+    padding: 16px 32px;
+    color: #fff;
+    
+}
