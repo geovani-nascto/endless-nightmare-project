@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Inter:wght@300;400;500;600;700&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -14,11 +16,13 @@ body{
     background: url(../img/background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Inter', sans-serif;
 }
 
 h3{
     font-size: 16px;
     line-height: 19px;
+    color: #fff;
 }
 
 h3 span{
@@ -30,18 +34,28 @@ h1{
     font-size: 64px;
     line-height: 80px;
     color: #FFC700;
+    font-family: 'Emilys Candy', cursive;
 }
 
 p{
     font-size: 20px;
     line-height: 24px;
-    margin-bottom: 78px;
+    margin-bottom: 72px;
     color: #fff;
     opacity: 0.6;
 }
 
 a{
-    padding: 16px 32px;
+    padding: 12px 32px;
     color: #fff;
-    
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.play-now, a:hover{
+    background: #FFC700;
+    color: #000;
+    text-decoration: none;
 }
